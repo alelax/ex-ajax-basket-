@@ -80,10 +80,9 @@ $('document').ready(function(){
 
 
    //Aggiorno le statistiche da visualizzare ogni volta che viene cliccato
-   //un codice giocatore dalla lista
+   //un codice giocatore nella lista
 
    $(document).on('click', '.players', function(){
-
 
       var itemClicked = $(this).index();
 
