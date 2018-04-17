@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+      <title>Sport Records Book</title>
+   </head>
+   <body>
+
+      <main>
+
+         <div class="form-section">
+            <form class="input-container" action="index.html" method="post">
+               <label for="id">Quanti giocatori vuoi aggiungere?</label>
+               <input id="insertId" type="text" name="" value="" placeholder="Insert number of players id">
+               <input id="search-button" type="submit" class="default-bg-btn" name="" value="">
+               <i id="btn-icon" class="fa fa-search fa-lg"></i>
+            </form>
+
+            <p id="error-msg" class="hidden">Il giocatore cercato non esiste!</p>
+
+            <div id="players-list">
+
+            </div>
+
+         </div>
+
+         <section id="stat" class="statistics hidden">
+
+            <div id="info" class="info-box">
+
+               <div id="player-reference" class="profile reference">
+                  <span id="id"></span>
+               </div>
+
+               <div class="data-box">
+
+                  <div class="profile data">
+                     <div class="">
+                        <span class="stat-type">Punti fatti:</span> <span id="punti_fatti" class="db-data"></span>
+                     </div>
+                     <div class="">
+                        <span class="stat-type">Rimbalzi:</span> <span id="rimbalzi" class="db-data"></span>
+                     </div>
+                     <div class="">
+                        <span class="stat-type">Falli commessi:</span> <span id="falli_commessi" class="db-data"></span>
+                     </div>
+                     <div class="">
+                        <span class="stat-type">Tiri da 2 punti (%):</span> <span id="tiri_2punti" class="db-data"></span>
+                     </div>
+                     <div class="">
+                        <span class="stat-type">Tiri da 3 punti (%):</span> <span id="tiri_3punti" class="db-data"></span>
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+         </section>
+      </main>
+
+
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>

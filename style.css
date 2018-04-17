@@ -1,0 +1,237 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   background: url(images/background.jpg);
+   background-size: cover;
+}
+
+#error-msg.hidden {
+   display: none;
+}
+
+.visible {
+   display: block;
+   color: red;
+   font-size: 18px;
+   position: absolute;
+   top: 33%;
+   left: 8%;
+   /* transform: translateX(-5%); */
+}
+
+/* ***** FORM SECTION ***** */
+
+main {
+   width: 1024px;
+   height: 100vh;
+   margin: 0 auto;
+   font-family: 'Raleway', sans-serif;
+   color: #FFF;
+
+}
+
+.form-section {
+   width: 30%;
+   height: 100vh;
+   position: relative;
+   background-color: rgba(168, 186, 171, 0.12);
+   float: left;
+}
+
+.input-container {
+   margin: 0 auto;
+   text-align: center;
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   transform: translate(-50%, -80%);
+}
+
+.input-container * {
+   display: block;
+   margin: 15px 0;
+}
+
+/* DELETE IT!
+label {
+   font-size: 25px;
+} */
+
+input #insertId {
+   height: 40px;
+   width: 270px;
+   border: none;
+   border-left: 2px solid #0f6fee;
+   border-bottom: 2px solid #0f6fee;
+   border-bottom-left-radius: 5px;
+   padding-left: 5px;
+   font-size: 18px;
+   background-color: rgba(0, 0, 0, 0);
+   font-family: 'Raleway', sans-serif;
+   color: #FFF;
+}
+
+input:focus{
+   border-left: 2px solid #0f6fee;
+   border-bottom: 2px solid #0f6fee;
+   border-bottom-left-radius: 5px;
+}
+
+#search-button {
+   width: 50px;
+   height: 50px;
+   border: none;
+   border-radius: 50%;
+   margin: 0 auto;
+   position: relative;
+   text-align: center;
+   line-height: 50px;
+   cursor: pointer;
+}
+
+
+
+.default-bg-btn {
+   background-color: #0f6fee;
+}
+
+.matched-bg-btn {
+   background-color: #03c639;
+}
+
+.error-bg-btn {
+   background-color: #c60303;
+}
+
+.fa{
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   color: #eaf4ef; */
+}
+
+#players-list {
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 80%;
+   height: 350px;
+   margin: 0 auto;
+   color: #FFF;
+   /* background-color: rgba(22, 209, 46, 0.67); */
+   overflow: scroll;
+   overflow-x:hidden;
+}
+
+
+/* width */
+#players-list::-webkit-scrollbar {
+   width: 3px;
+}
+/* track */
+#players-list::-webkit-scrollbar-track {
+   background: #FFF;
+
+}
+/* Handle */
+#players-list::-webkit-scrollbar-thumb {
+   background: rgba(19, 53, 198, 0.87);
+}
+
+/* Handle on hover */
+#players-list::-webkit-scrollbar-thumb:hover {
+   background: rgba(19, 53, 198, 1);
+}
+
+
+.players {
+   width: 50%;
+   height: 40px;
+   line-height: 40px;
+   padding: 0 10px;
+   font-size: 18px;
+   margin: 0 auto;
+   text-align: center;
+   cursor: pointer;
+}
+
+
+
+.players:not(:last-child){
+   border-bottom: 1px solid rgba(19, 53, 198, 0.87);
+}
+
+
+/* ***** STATISTICS SECTION ***** */
+
+.statistics {
+   width: 70%;
+   height: 100vh;
+   position: relative;
+   float: left;
+}
+
+.statistics.hidden {
+   display: none;
+}
+
+.info-box {
+   width: 90%;
+   height: 80%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); */
+
+}
+
+.profile.reference {
+   width: 100%;
+   height: 15%;
+   margin-bottom: 25px;
+}
+
+.data-box {
+   width: 100%;
+   height: 85%;
+}
+
+.profile.data {
+   width: 100%;
+   text-align: left;
+   padding-left: 20px;
+   float: left;
+}
+
+.profile.data div {
+   width: 100%;
+   margin: 30px 0;
+}
+
+/* font style */
+.stat-type {
+   font-size: 40px;
+   font-weight: 500;
+   margin: 0 15px;
+}
+
+.db-data {
+   font-size: 50px;
+   font-weight: 600;
+   color: rgb(231, 82, 28);
+
+}
+
+#id {
+   font-size: 70px;
+   font-weight: 500;
+   margin-left: 25px;
+   padding-left: 25px;
+   border-left: 1px solid rgb(236, 81, 14);;
+}
