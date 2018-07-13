@@ -30,7 +30,7 @@ main {
    height: 100vh;
    margin: 0 auto;
    font-family: 'Raleway', sans-serif;
-   color: #FFF;
+   color: rgb(36, 224, 11);
 
 }
 
@@ -69,10 +69,10 @@ input #insertId {
    border-bottom: 2px solid #0f6fee;
    border-bottom-left-radius: 5px;
    padding-left: 5px;
-   font-size: 18px;
+   font-size: 30px;
    background-color: rgba(0, 0, 0, 0);
    font-family: 'Raleway', sans-serif;
-   color: #FFF;
+   color: #0F0;
 }
 
 input:focus{
